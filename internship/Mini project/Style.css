@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: Arial;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
